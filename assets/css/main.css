@@ -1543,14 +1543,10 @@ input, select, textarea {
 /* Image */
 
 #logo {
-	width: 80%;
+	width: 70%;
 	margin-left: 10%;
 }
 
-#motto {
-	
-	display: inline-block;
-}
 
 	.image {
 		display: inline-block;
@@ -2102,9 +2098,13 @@ input, select, textarea {
 					}
 
 					#main > .panel.intro header p {
+						display: inline-block;
 						letter-spacing: -0.015em;
-						font-size: 1.25em;
+						font-size: 1.3em;
 						margin: 0.25em 0 0 0;
+						color: rgb(0, 0, 0);
+						margin-left: 20%;
+						
 					}
 
 				@media screen and (max-width: 980px) {
