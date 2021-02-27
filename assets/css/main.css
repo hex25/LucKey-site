@@ -2226,34 +2226,4 @@ input, select, textarea {
 	text-align: center;
   }
   
-  /* top left*/
-  .ribbon-top-left {
-	top: -10px;
-	left: -10px;
-  }
-  .ribbon-top-left::before,
-  .ribbon-top-left::after {
-	border-top-color: transparent;
-	border-left-color: transparent;
-  }
-  .ribbon-top-left::before {
-	top: 0;
-	right: 0;
-  }
-  .ribbon-top-left::after {
-	bottom: 0;
-	left: 0;
-  }
-  .ribbon-top-left span {
-	right: -25px;
-	top: 30px;
-	transform: rotate(-45deg);
-  }
-  .box {
-	position: relative;
-	max-width: 600px;
-	width: 95%;
-	height: auto;
-	background: #fff;
-	box-shadow: 0 0 15px rgba(0,0,0,.1);
-  }  
+ 
